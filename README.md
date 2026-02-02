@@ -1,21 +1,20 @@
 # Marketing Campaign Analysis – Power BI Dashboard
 
 Welcome to the **Marketing Campaign Analysis Project** repository!  
-This project demonstrates an end-to-end business intelligence solution using **Power BI, Power Query and DAX**, focused on transforming marketing and customer data into actionable insights.  
-Designed as a portfolio project, it highlights best practices in data preparation, analytical modeling, and data visualization.
+This project presents a business intelligence solution built with **Power BI, Power Query and DAX**, focused on analyzing marketing and customer data through interactive dashboards.
 
 ---
 
 ## 📖 Project Overview
 
-This project was developed as part of a business intelligence case study for a market research firm working with a retail company in the food and beverage sector. The objective is to analyze marketing and customer data in order to better understand campaign performance, product sales, and customer profiles.
+This project is a business intelligence case study for a market research firm working with a retail company in the food and beverage sector. The objective is to analyze marketing and customer data to understand campaign performance, product sales, and customer profiles.
 
-The client is a small company that is still exploring its market and learning about customer behavior. Therefore, the main goal of this dashboard is to transform raw marketing data into actionable insights that support business decision-making.
+The dashboard provides visibility into marketing trends, supporting data-driven decisions and highlighting patterns in campaign effectiveness, product performance, and customer behavior.  
+It addresses key business questions such as:
 
-The dashboard focuses on answering key business questions such as:
-- How are recent marketing campaigns performing?
-- Which products generate the most revenue?
-- Who are the main customers?
+- How are recent marketing campaigns performing?  
+- Which products generate the most revenue?  
+- Who are the main customers?  
 - What factors influence campaign performance and purchase behavior?
 
 ---
@@ -31,17 +30,15 @@ These files contain customer demographics, product information, sales data, and 
 
 ---
 
-## 🔄 Data Preparation
+## 🔄 Data Preparation & Modeling
 
-Data preparation was performed using **Power Query**, including:
+Data preparation and modeling were performed using **Power Query**.
 
-- Importing and inspecting raw data  
-- Renaming columns for clarity  
-- Adjusting data types  
-- Handling typos and inconsistent values  
-- Creating referenced tables for analysis  
+The ETL process included data inspection, column standardization, data type adjustments, handling typos or inconsistent values, and creation of referenced queries for analysis.
 
-These steps ensured data quality and consistency before building the analytical model and visualizations.
+An **analytical data model** was then built by merging tables and applying **dimensional modeling** principles, defining fact and dimension tables, establishing relationships, and validating cardinality.
+
+This process ensured a clean, consistent, and well-structured semantic layer for the dashboard.
 
 ---
 
@@ -50,13 +47,14 @@ These steps ensured data quality and consistency before building the analytical 
 The dashboard is organized into three main analytical sections:
 
 ### 1. Campaign & Product Performance
-This section provides a comparative view of marketing campaigns in terms of purchase volume, revenue, product mix, and sales channels. It allows users to identify which campaigns generate the highest financial return, how revenue is distributed across product categories, and which platforms (store, web, catalog, deal) drive most sales.
+Provides a comparative view of campaigns by purchase volume, revenue, product mix, and sales channels, highlighting which campaigns and platforms drive the most sales.
 
 ### 2. Customer Profile
-This section focuses on understanding customer demographics and behavior. It highlights key characteristics such as education level, marital status, income, age, and household composition, and links them to purchasing patterns. This enables segmentation analysis and helps identify how different customer groups respond to campaigns.
+Analyzes customer demographics and behavior, linking attributes such as education, income, age, and marital status to purchasing patterns and segmentation.
 
 ### 3. Purchase Drivers
-This section uses automated **Key Influencers** analysis to uncover which factors most impact campaign acceptance and total sales. Users can dynamically filter by product categories to explore what drives performance and simulate different business scenarios, supporting more informed strategic decisions.
+Uses **Key Influencers** analysis to uncover factors impacting campaign acceptance and sales, allowing dynamic filtering by product category to explore performance drivers.
+
 
 ---
 
@@ -75,6 +73,8 @@ This project demonstrates how marketing and customer data can be transformed int
 ---
 
 ## 📂 Repository Structure
+<!-- PLACEHOLDER
+
 ```
 marketing-campaign-powerbi/             
 │
@@ -95,6 +95,9 @@ marketing-campaign-powerbi/
 │
 └── LICENSE                                         # License information for the repository
 ```
+-->
+
+
 ---
 
 ## 🌟 About Me
