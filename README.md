@@ -78,22 +78,22 @@ This project demonstrates how marketing and customer data can be transformed int
 ```
 marketing-campaign-powerbi/             
 │
-├── dashboard.pbix                  # Power BI dashboard file
-├── README.md                       # Project overview and documentation
-├── datasets/                       # Raw datasets used in the analysis
-│   ├── research_data.csv           # Main dataset with customer, product, sales and campaign data
-│   └── research_data_dict.csv      # [file description]
+├── dashboard.pbix                                  # Power BI dashboard file
+├── README.md                                       # Project overview and documentation
+├── datasets/                                       # Raw datasets used in the analysis
+│   ├── marketmindz_research_data.csv               # Main dataset
+│   └── marketmindz_research_data_dictionary.csv    # Fields description dictionary
 │
-├── screenshots/                    # Dashboard preview images
-│   ├── campaign_performance.png    # Campaign and product performance view
-│   ├── <name>.png                  # <description>
-│   └── customer_profile.png        # Customer demographics and behavior view
+├── screenshots/                                    # Dashboard preview images
+│   ├── campaign_performance.png                    # Campaign and product performance view
+│   ├── <name>.png                                  # <description>
+│   └── customer_profile.png                        # Customer demographics and behavior view
 │
-├── videos/                         # Project demonstration videos
-│   ├── xxx                         # [file description]
-│   └── xxx                         # [file description]
+├── videos/                                         # Project demonstration videos
+│   ├── xxx                                         # [file description]
+│   └── xxx                                         # [file description]
 │
-└── LICENSE                         # License information for the repository
+└── LICENSE                                         # License information for the repository
 ```
 ---
 
